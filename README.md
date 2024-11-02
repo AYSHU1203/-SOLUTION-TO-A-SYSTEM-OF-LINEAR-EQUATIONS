@@ -14,9 +14,19 @@ To write a python program to find a solution to a system of linear equations.
 ### Step 4: 
     End the program
 ## Program:
-
-## Output:
+```Python
+#Program to find the solution for the given linear equations.
+#Developed by:Ayshwariya.J 
+#RegisterNumber:24901138
+import numpy as np
+a=np.array([[1,3],[2,5]])
+b=np.array([5,-3])
+res=np.linalg.solve(a,b)
+print(res)
+```
+### Output:
+![alt text](<Screenshot 2024-11-02 120815.png>)
 
 ## Result: 
-
+Thus the solution for the linera equations are successfully solved using python program
 
